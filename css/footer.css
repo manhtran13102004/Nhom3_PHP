@@ -1,0 +1,127 @@
+footer h2,p{
+    margin: 0 !important
+}
+footer{
+    width: 100%;
+    background-color: rgb(4, 4, 4);
+    color:white;
+    font-family:  'Open Sans', sans-serif;;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 45px 0px; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    vertical-align: unset;
+}
+footer h2,h3{
+    font-weight: bold;
+    line-height: 40px;
+}
+.footer-container h3,.footer-container h2{
+    font-family: "Signika", sans-serif;
+    font-size: 20px;
+}
+footer a{
+    transition: 0.3s;
+}
+.footer-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer-container a{
+    color:white;
+    text-decoration: none;
+}
+.footer-container ul{
+    list-style: none;
+}
+.footer-container > *:not(:last-child) {
+    margin-right: 98px;
+}
+.footer-info svg{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.footer-bottom{
+    margin-top:30px;
+    text-align: center;
+    width: 88%;
+    border-top: 2px solid #7dc642;
+}
+.footer-bottom p{
+    padding-top:15px;
+}
+footer a:hover{
+    color:#7dc642;
+}
+
+.image-container {
+    display: flex;
+    width: 180px;
+    height: 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px; 
+}
+
+/* Responsive cho màn hình nhỏ (max-width: 768px) */
+@media (max-width: 768px) {
+    footer {
+        padding: 30px 10px; /* Giảm padding để tiết kiệm không gian */
+    }
+
+    .footer-container {
+        flex-direction: column; /* Chuyển thành dạng cột */
+        align-items: center; /* Căn giữa các phần tử */
+        text-align: center;
+    }
+
+    .footer-container > * {
+        margin-bottom: 20px; /* Thêm khoảng cách giữa các phần tử */
+        margin-right: 0 !important; /* Xóa khoảng cách ngang */
+    }
+
+    .footer-container h3, .footer-container h2 {
+        font-size: 18px; /* Giảm kích thước tiêu đề */
+    }
+
+    .footer-bottom {
+        width: 100%; /* Đảm bảo chiều rộng 100% trên màn hình nhỏ */
+        font-size: 14px; /* Giảm kích thước chữ */
+    }
+
+    .image-container {
+        width: 100%; /* Mở rộng chiều rộng hình ảnh */
+        gap: 5px; /* Giảm khoảng cách giữa các hình ảnh */
+        justify-content: center;
+    }
+}
+
+/* Responsive cho màn hình rất nhỏ (max-width: 480px) */
+@media (max-width: 480px) {
+    footer {
+        padding: 20px 5px; /* Giảm padding hơn nữa */
+        font-size: 16px; /* Giảm kích thước chữ tổng thể */
+    }
+
+    .footer-container h3, .footer-container h2 {
+        font-size: 16px; /* Giảm kích thước tiêu đề */
+        line-height: 24px; /* Điều chỉnh dòng chữ */
+    }
+
+    .footer-bottom p {
+        font-size: 12px; /* Giảm kích thước chữ trong phần thông tin cuối */
+        padding-top: 10px; /* Giảm khoảng cách trên */
+    }
+
+    .image-container {
+        gap: 2px; /* Thu nhỏ khoảng cách giữa các hình ảnh */
+    }
+}
+

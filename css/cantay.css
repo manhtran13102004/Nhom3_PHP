@@ -1,0 +1,280 @@
+/*ĐÁNH GIÁ SẢN PHẨM*/
+.product-reviews {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+.product-reviews h3 {
+    color: #28a745; 
+    font-weight: bold; 
+    text-align: left; /*căn giữa tiêu đề*/
+}
+
+.review-list {
+    margin-bottom: 20px;
+}
+
+.review-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.review-rating {
+    color: #FFD700; 
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.add-review {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.add-review h4 {
+    margin-bottom: 15px;
+}
+.btn.btn-primary {
+    background-color: #28a745; 
+}
+
+.btn.btn-primary:hover {
+    background-color: #218838; 
+
+}
+
+
+/*chat box*/
+.chatbox-container {
+    position: fixed; /*vị trí cố định không bị cuộn khi người dùng cuộn trang*/
+    bottom: 20px; 
+    right: 20px; 
+    width: 400px; 
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 9999; /* Đảm bảo luôn hiển thị trên các phần tử khác */
+    display: none; /* Mặc định ẩn chat box */
+}
+
+.chatbox-header {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;   /* Căn các phần tử trong header ra hai bên, cách đều nhau */
+    justify-content: space-between;   /* Căn các phần tử trong header theo chiều dọc ở giữa */
+    align-items: center;
+}
+
+.chatbox-header h5 {
+    margin: 0;
+}
+
+.chatbox-close {
+    background: none; /*loại bỏ màu nền mặc định của nút*/
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer; /*chuyển thành biểu tượng con trỏ tay*/
+}
+
+.chatbox-body {
+    padding: 10px;
+    font-size: 14px;
+}
+   /*NÚT TƯ VẤN */
+
+#chatboxToggle {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 10000; /* Luôn nổi trên các phần tử khác */
+}
+#chatInput {
+    flex: 1; /
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 8px;
+    font-size: 14px; /* Cỡ chữ */
+    outline: none; /* Loại bỏ viền mặc định khi nhấn vào */
+    width: 300px;
+}
+
+#sendButton {
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 8px 15px; 
+    margin-left: 10px; 
+    cursor: pointer; /* Thay đổi con trỏ khi hover */
+}
+
+#sendButton:hover {
+    background-color: #218838; /* Màu xanh lá đậm hơn khi hover */
+}
+
+
+/*tin tức nổi bật*/
+.featured-news {
+    background-color: #f9f9f9; /*màu nền*/
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.featured-news h3 {
+    background-color: #28a745; /*màu nền*/
+    color: #ebf3ed;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.featured-news ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.featured-news ul li {
+    display: flex; /*CHỮ VÀ ẢNH NẰM NGANG*/
+    align-items: center; /*CĂN GIỮA THO CHIỀU DỌC*/
+    margin-bottom: 15px;
+}
+
+.featured-news ul li img {
+    width: 50px;
+    height: 50px; /*CHIEUF CAO CỦA ảnh tin tức*/
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.featured-news ul li a {
+    text-decoration: none;
+    color: #333; /*màu tieu đề tin tức*/
+    font-weight: bold; /* làm màu chữ đậm*/
+    transition: color 0.3s ease; 
+}
+
+.featured-news ul li a:hover {
+    color: #28a745; /*khi trỏ chuột chuaayenr qua màu xanh lá*/
+}
+
+/* Responsive cho màn hình nhỏ (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Đánh giá sản phẩm */
+    .product-reviews h3 {
+        font-size: 16px; /* Giảm kích thước tiêu đề đánh giá */
+        text-align: center; /* Căn giữa tiêu đề */
+    }
+
+    .review-rating {
+        font-size: 12px; /* Giảm kích thước sao đánh giá */
+    }
+
+    /* Chatbox */
+    .chatbox-container {
+        width: 90%; /* Chatbox chiếm 90% chiều rộng màn hình */
+        height: 400px; /* Giảm chiều cao chatbox */
+    }
+
+    #chatboxToggle {
+        padding: 8px 12px; /* Thu nhỏ nút mở chatbox */
+        font-size: 14px; /* Giảm kích thước chữ */
+    }
+
+    #chatInput {
+        width: 100%; /* Input chiếm toàn bộ chiều rộng */
+    }
+
+    #sendButton {
+        padding: 8px 12px; /* Thu nhỏ nút gửi */
+        font-size: 14px; /* Giảm kích thước chữ nút gửi */
+    }
+
+    /* Tin tức nổi bật */
+    .featured-news {
+        padding: 15px; /* Giảm padding của khối tin tức */
+    }
+
+    .featured-news h3 {
+        font-size: 16px; /* Giảm kích thước tiêu đề */
+    }
+
+    .featured-news ul li img {
+        width: 40px; /* Giảm kích thước ảnh */
+        height: 40px;
+    }
+
+    .featured-news ul li a {
+        font-size: 14px; /* Giảm kích thước chữ */
+    }
+}
+
+/* Responsive cho màn hình rất nhỏ (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Đánh giá sản phẩm */
+    .product-reviews h3 {
+        font-size: 14px; /* Giảm kích thước tiêu đề đánh giá hơn nữa */
+        line-height: 18px;
+    }
+
+    .review-item {
+        padding: 8px 0; /* Giảm khoảng cách giữa các đánh giá */
+    }
+
+    /* Chatbox */
+    .chatbox-container {
+        width: 100%; /* Chatbox chiếm toàn bộ chiều rộng */
+        height: 300px; /* Tiếp tục giảm chiều cao chatbox */
+        border-radius: 5px; /* Giảm bo góc */
+    }
+
+    .chatbox-header {
+        font-size: 14px; /* Giảm kích thước chữ tiêu đề chatbox */
+    }
+
+    #chatboxToggle {
+        padding: 6px 10px; /* Thu nhỏ nút mở chatbox hơn nữa */
+        font-size: 12px; /* Giảm kích thước chữ */
+    }
+
+    #chatInput {
+        font-size: 12px; /* Giảm kích thước chữ trong input */
+    }
+
+    #sendButton {
+        padding: 6px 10px; /* Thu nhỏ nút gửi hơn nữa */
+        font-size: 12px; /* Giảm kích thước chữ */
+    }
+
+    /* Tin tức nổi bật */
+    .featured-news {
+        padding: 10px; /* Giảm thêm padding */
+        margin-top: 15px; /* Giảm khoảng cách trên */
+    }
+
+    .featured-news h3 {
+        font-size: 14px; /* Giảm kích thước tiêu đề */
+    }
+
+    .featured-news ul li img {
+        width: 30px; /* Giảm thêm kích thước ảnh */
+        height: 30px;
+    }
+
+    .featured-news ul li a {
+        font-size: 12px; /* Giảm thêm kích thước chữ */
+    }
+}
+

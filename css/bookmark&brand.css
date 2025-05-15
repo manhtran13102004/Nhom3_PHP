@@ -1,0 +1,126 @@
+.bookmark {
+    position: relative;
+    min-height: 450px;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    text-align: center;
+    font-family: "Signika", sans-serif;
+}
+
+.bookmark::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content-bookmark {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.content-bookmark > div h1{
+    font-size: 60px;
+}
+.content-bookmark > div h3{
+    font-weight: normal;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.content-bookmark > div{
+    padding-top: 180px;
+}
+.content-bookmark a{
+    text-decoration: none;
+    color:white;
+    transition: 0.3s;
+}
+.content-bookmark a:hover{
+    color:#7dc642;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    background-image: url('../images/background.png');
+    background-color: #81c848;
+    flex-wrap: nowrap;
+    overflow-x: hidden; 
+    padding: 70px;
+    box-sizing: border-box;
+    /* margin-bottom: 50px; */
+}
+.brand-item {
+    flex: 0 0 auto;
+    width: 20%;
+    margin-right: 10px;
+}
+
+.brand-item:last-child {
+    margin-right: 0;
+}
+
+.brand-item img {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+}
+/* Responsive cho màn hình nhỏ */
+@media (max-width: 768px) {
+    /* Responsive cho .bookmark */
+    .bookmark {
+        min-height: 300px; /* Giảm chiều cao */
+        background-size: contain; /* Điều chỉnh nền */
+    }
+
+    .content-bookmark > div {
+        padding-top: 100px; /* Giảm khoảng cách */
+    }
+
+    .content-bookmark > div h1 {
+        font-size: 40px; /* Giảm kích thước tiêu đề */
+    }
+
+    .content-bookmark > div h3 {
+        font-size: 20px; /* Giảm kích thước phụ đề */
+    }
+
+    /* Responsive cho .brand */
+    .brand {
+        flex-wrap: wrap; /* Chuyển từ hàng ngang sang hàng dọc */
+        padding: 20px; /* Giảm padding */
+    }
+
+    .brand-item {
+        width: 50%; /* Mỗi item chiếm 50% chiều rộng */
+        margin-bottom: 20px; /* Thêm khoảng cách giữa các item */
+        text-align: center; /* Căn giữa nội dung */
+    }
+
+    .brand-item img {
+        width: 80px; /* Giảm kích thước ảnh */
+        height: 80px;
+    }
+}
+
+/* Responsive cho màn hình rất nhỏ (dưới 480px) */
+@media (max-width: 480px) {
+    .content-bookmark > div h1 {
+        font-size: 30px; /* Giảm kích thước tiêu đề */
+    }
+
+    .content-bookmark > div h3 {
+        font-size: 16px; /* Giảm kích thước phụ đề */
+    }
+
+    .brand-item {
+        width: 100%; /* Mỗi item chiếm toàn bộ chiều rộng */
+    }
+
+    .brand-item img {
+        width: 60px; /* Giảm kích thước ảnh hơn nữa */
+        height: 60px;
+    }
+}

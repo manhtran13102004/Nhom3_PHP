@@ -1,13 +1,13 @@
 // Dữ liệu sản phẩm
 var arrSP = [
-    { tenSP: 'Sữa hạt dinh dưỡng', hinh: 'images/sp1.png', gia: 40000,link: ""},
-    { tenSP: 'Thanh lọc cơ thể', hinh: 'images/sp2.png', gia: 1080000, link: "" },
-    { tenSP: 'Lung Detox', hinh: 'images/sp4.png', gia: 580000, link: "" },
-    { tenSP: 'Detox Clear Skin', hinh: 'images/sp5.png', gia: 1050000, link: "" },
-    { tenSP: 'Liver Detox', hinh: 'images/sp3.png', gia: 490000, link: "" },
-    { tenSP: 'Detox 3 ngày', hinh: 'images/sp6.png', gia: 880000, link: "./detox3ngay.html" },
-    { tenSP: 'Detox Basic 3D', hinh: 'images/sp7.png', gia: 1080000, link: "" },
-    { tenSP: 'Detox 4D', hinh: 'images/sp8.png', gia: 1580000, link: "" },
+    { tenSP: 'Mix Detox S13', hinh: 'images/mixdetoxS131.png', gia: 2558000,link: "http://127.0.0.1:5500/Nhom3_PHP-main/mixdetox%2013.html" },
+    { tenSP: 'Keto Slim', hinh: 'images/anh4.png', gia: 1250000, link: "" },
+    { tenSP: 'Keto Weight Loss', hinh: 'images/anh6.png', gia: 1250000, link: "" },
+    { tenSP: 'Keto Weight Loss 2', hinh: 'images/anh5.png', gia: 1650000, link: "" },
+    { tenSP: 'Keto Cellutlite', hinh: 'images/anh7.png', gia: 990000, link: "" },
+    { tenSP: 'Keto Cellutlite 2', hinh: 'images/anh10.png', gia: 1225000, link: "" },
+    { tenSP: 'Thanh lọc cơ thể', hinh: 'images/anh11.png', gia: 1080000, link: "" },
+    { tenSP: 'Ép 3D', hinh: 'images/anh8.png', gia: 580000, link: "" },
     
 ];
 

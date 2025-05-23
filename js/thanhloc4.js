@@ -1,13 +1,13 @@
 // Dữ liệu sản phẩm
 var arrSP = [
-    { tenSP: 'Sữa hạt dinh dưỡng', hinh: 'images/sp1.png', gia: 40000,link: ""},
-    { tenSP: 'Thanh lọc cơ thể', hinh: 'images/sp2.png', gia: 1080000, link: "" },
-    { tenSP: 'Lung Detox', hinh: 'images/sp4.png', gia: 580000, link: "" },
-    { tenSP: 'Detox Clear Skin', hinh: 'images/sp5.png', gia: 1050000, link: "" },
-    { tenSP: 'Liver Detox', hinh: 'images/sp3.png', gia: 490000, link: "" },
-    { tenSP: 'Detox 3 ngày', hinh: 'images/sp6.png', gia: 880000, link: "./detox3ngay.html" },
-    { tenSP: 'Detox Basic 3D', hinh: 'images/sp7.png', gia: 1080000, link: "" },
-    { tenSP: 'Detox 4D', hinh: 'images/sp8.png', gia: 1580000, link: "" },
+    { tenSP: 'Detox clear', hinh: 'images/detoxclean1.png', gia: 1250000,link: "http://127.0.0.1:5500/Nhom3_PHP-main/detoxclear.html" },
+    { tenSP: 'Mixdetix S13 2', hinh: 'images/mixdetoxS132.png', gia: 2558000, link: "" },
+    { tenSP: 'Mixdetix S13 3', hinh: 'images/mixdetoxS133.png', gia: 2558000, link: "" },
+    { tenSP: 'Mixdetix S13 4', hinh: 'images/anh9.png', gia: 1050000, link: "" },
+    { tenSP: 'Mixdetix S13 5', hinh: 'images/anh12.png', gia: 990000, link: "" },
+    { tenSP: 'Detox Clean 1', hinh: 'images/detoxclean1.png', gia: 1725000, link: "" },
+    { tenSP: 'Detox Clean 2', hinh: 'images/detoxclean2.png', gia: 1125000, link: "" },
+    { tenSP: 'Detox Clean 3', hinh: 'images/detoxclean3.png', gia: 1580000, link: "" },
     
 ];
 

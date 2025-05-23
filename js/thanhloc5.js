@@ -1,13 +1,13 @@
 // Dữ liệu sản phẩm
 var arrSP = [
-    { tenSP: 'Sữa hạt dinh dưỡng', hinh: 'images/sp1.png', gia: 40000,link: ""},
-    { tenSP: 'Thanh lọc cơ thể', hinh: 'images/sp2.png', gia: 1080000, link: "" },
-    { tenSP: 'Lung Detox', hinh: 'images/sp4.png', gia: 580000, link: "" },
-    { tenSP: 'Detox Clear Skin', hinh: 'images/sp5.png', gia: 1050000, link: "" },
-    { tenSP: 'Liver Detox', hinh: 'images/sp3.png', gia: 490000, link: "" },
-    { tenSP: 'Detox 3 ngày', hinh: 'images/sp6.png', gia: 880000, link: "./detox3ngay.html" },
-    { tenSP: 'Detox Basic 3D', hinh: 'images/sp7.png', gia: 1080000, link: "" },
-    { tenSP: 'Detox 4D', hinh: 'images/sp8.png', gia: 1580000, link: "" },
+    { tenSP: 'Nước ép cần tây', hinh: 'images/cantay1.jpg', gia: 800000,link: "http://127.0.0.1:5500/Nhom3_PHP-main/nuocuongcantay.html" },
+    { tenSP: 'Detox Smoothie', hinh: 'images/anh16.png', gia: 1080000, link: "" },
+    { tenSP: 'Detox Vitamin', hinh: 'images/anh21.png', gia: 1580000, link: "" },
+    { tenSP: 'Mixdetox Sáng Da', hinh: 'images/anh15.png', gia: 1050000, link: "" },
+    { tenSP: 'Mixdetox Chuối Cacao', hinh: 'images/anh17.png', gia: 1490000, link: "" },
+    { tenSP: 'Sữa Hạt điều Cacao', hinh: 'images/anh18.png', gia: 940000, link: "" },
+    { tenSP: 'Sữa Hạt sen Đậu xanh', hinh: 'images/anh19.png', gia: 1080000, link: "" },
+    { tenSP: 'Mixdetox Sáng da', hinh: 'images/anh20.png', gia: 1580000, link: "" },
     
 ];
 

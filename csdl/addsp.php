@@ -12,7 +12,7 @@ $products = [
         'cachBaoQuan' => 'Bảo quản ngăn mát tủ lạnh 3-5 độ.',
         'dungTich' => '300ml - 500ml',
         'donGia' => 1000000,
-        'images' => ['detox1.jpg', 'detox2.jpg', 'detox3.jpg']
+        'images' => ['detox3ngay1.png', 'detox3ngay2.png', 'detox3ngay3.png']
     ],
     [
         'ID' => 'detoxclear',
@@ -23,7 +23,7 @@ $products = [
         'cachBaoQuan' => 'Bảo quản ngăn mát tủ lạnh 3-5 độ',
         'dungTich' => '300ml - 500ml',
         'donGia' => 1500000,
-        'images' => ['detoxclear1.jpg', 'detoxclear2.jpg', 'detoxclear3.jpg']
+        'images' => ['detoxclean1.png', 'detoxclean2.png', 'detoxclean3.png']
     ],
     [
         'ID' => 'cantay',
@@ -34,7 +34,7 @@ $products = [
         'cachBaoQuan' => 'Bảo quản ngăn mát tủ lạnh 3-5 độ',
         'dungTich' => '300ml - 500ml',
         'donGia' => 850000,
-        'images' => ['cantay1.jpg', 'cantay2.jpg', 'cantay3.jpg']
+        'images' => ['cantay1.jpg', 'cantay2.png', 'cantay3.png']
     ],
     [
         'ID' => 'mixdetox',
@@ -45,7 +45,7 @@ $products = [
         'cachBaoQuan' => 'Bảo quản ngăn mát tủ lạnh 3-5 độ',
         'dungTich' => '300ml - 500ml',
         'donGia' => 2558000,
-        'images' => ['mixdetoxS13.jpg', 'mixdetoxS132.jpg', 'mixdetoxS133.jpg']
+        'images' => ['mixdetoxS131.png', 'mixdetoxS132.png', 'mixdetoxS133.png']
     ],
     [
         'ID' => 'suahat',
